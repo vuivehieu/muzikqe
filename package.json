@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node-media-server": "^2.2.6"
   },
-
   "scripts": {
     "start": "node index.js"
   }
