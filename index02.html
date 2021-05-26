@@ -3,6 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Sample Site</title>  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <style>
     body { padding-top: 50px; }
   </style>
@@ -12,12 +22,19 @@
   <div class="container">
     <div class="jumbotron">
       <H1>Welcome</H1>
+      <h2>Group 01</h2>
       <h2>Streaming</h2>
-      <audio controls="controls">
+      <div>
+
+      <!-- <audio controls="controls">
     <source src="http://localhost:8000/stream" type="audio/ogg" />
     <source src="http://localhost:8000/stream" type="audio/mpeg" />
+</audio> -->
+<audio controls="controls">
+  <source src="/audio/Vu.mp3" type="audio/ogg"/>
+  <source src="/audio/Vu.mp3" type="audio/mpeg"/>
 </audio>
-    </div>
+    </div>  
   </div>
 
 </body>
